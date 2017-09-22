@@ -1,20 +1,23 @@
-package Controller;
+package App;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@EnableAutoConfiguration
 public class IndexController {
 
-    @RequestMapping("/")
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String Index(){
+        System.out.println("-------this is home----------");
+        return "index";
+    }
+
+    @RequestMapping(value = "/error/", method = RequestMethod.GET)
     @ResponseBody
-    public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "greeting";
+    public String Error(){
+        return "Sorry, there is something wrong.";
     }
 }
