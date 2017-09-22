@@ -1,14 +1,8 @@
 package Data;
 
 import Entity.Order;
-
-import java.util.ArrayList;
-import java.util.List;
+import io.vavr.collection.List;
 
 public class Orders {
-    static private List<Order> orders;
-
-    static {
-        orders = new ArrayList<Order>();
-    }
+    static private List<Order> orders = List.empty();
 }
