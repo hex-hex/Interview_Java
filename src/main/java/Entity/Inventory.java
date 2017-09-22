@@ -1,13 +1,12 @@
 package Entity;
 
 import lombok.Getter;
+import java.io.Serializable;
 
-public class Inventory {
-    @Getter
-    private Item item;
+public class Inventory implements Serializable {
+    private @Getter Item item;
 
-    @Getter
-    private int amount;
+    private @Getter int amount;
 
     public Inventory(Item item, int amount){
         this.item = item;

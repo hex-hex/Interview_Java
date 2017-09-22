@@ -1,8 +1,9 @@
 package Entity;
 
 import lombok.Getter;
+import java.io.Serializable;
 
-public class Item {
+public class Item implements Serializable {
     @Getter
     private String name;
 
