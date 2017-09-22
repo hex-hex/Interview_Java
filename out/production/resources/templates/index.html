@@ -1,17 +1,58 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Interview Test</title>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+<style>
+    @media (min-width: 768px ) {
+        .row {
+            position: relative;
+        }
+
+        .bottom-align {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+        }
+    }
+</style>
 </head>
 <body>
 
 <div class="container">
-    <div class="col">
-        test interview
+    <div class="row">
+        <div class="col-md-12">
+            <p>Currently available in our shop:</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Your shopping:</p>
+        </div>
+        <form action="POST">
+            <div class="col-sm-8">
+                <div class="form-group col-md-12">
+                    <label class="col-sm-3" for="item-a">Item A:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="item-a">
+                    </div>
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="col-sm-3" for="item-b">Item B:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="item-b">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 bottom-align">
+                <input type="submit" class="btn btn-primary" value="Buy">
+            </div>
+        </form>
     </div>
 </div>
 </body>
