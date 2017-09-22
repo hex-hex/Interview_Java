@@ -8,12 +8,14 @@
   },
   "author": "hugh",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "axios": "^0.16.2",
     "bootbox": "^4.4.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "vee-validate": "^2.0.0-rc.17",
-    "vue": "^2.4.4"
+    "vue": "^2.4.4",
+    "webpack": "^3.6.0"
   }
 }

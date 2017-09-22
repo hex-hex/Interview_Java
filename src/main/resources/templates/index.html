@@ -47,18 +47,12 @@
         <div class="col-md-12">
             <p>Your shopping:</p>
         </div>
-        <form action="POST">
+        <form  v-on:submit.prevent="onSubmit" action="POST">
             <div class="col-sm-8">
-                <div class="form-group col-md-12">
-                    <label class="col-sm-3" for="item-a">Item A:</label>
+                <div v-for="item in items" class="form-group col-md-12">
+                    <label class="col-sm-3">{{item.item.name}}:</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="item-a">
-                    </div>
-                </div>
-                <div class="form-group col-md-12">
-                    <label class="col-sm-3" for="item-b">Item B:</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="item-b">
+                        <input v-model="item.quantity" placeholder="Type in the quantity you wanna buy..." type="text" class="form-control">
                     </div>
                 </div>
             </div>
