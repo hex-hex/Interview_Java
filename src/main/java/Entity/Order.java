@@ -11,15 +11,15 @@ public class Order implements Serializable {
 
     @Getter
     @Setter
-    private int quatity;
+    private int quantity;
 
     @Getter
     @Setter
     private Item item;
 
-    public Order(Item item,int quatity){
+    public Order(Item item,int quantity){
         this.item = item;
-        this.quatity = quatity;
+        this.quantity = quantity;
         this.id = idCount ++;
     }
 }
