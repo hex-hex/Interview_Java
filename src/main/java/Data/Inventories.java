@@ -17,9 +17,4 @@ public class Inventories {
                 new Inventory(new Item("Item B"), 10)
                 );
     }
-
-    static public int ShipItems(String itemName, int amount){
-        Inventory inventory = inventories.filter(i -> itemName == i.getItem().getName()).head();
-        return inventory.getAmount();
-    }
 }
