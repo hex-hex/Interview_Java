@@ -1,3 +1,4 @@
+
 $(function(){
     var indexViewModel = new Vue({
         el: '#item-list',
@@ -25,7 +26,6 @@ $(function(){
                         formData.push({'itemName':t.item.name, 'quantity':t.quantity});
                     }
                 });
-                console.log(formData);
                 axios.post('/api/item/',formData)
                     .then(function (response) {
                         axios.get('/api/item/')
@@ -34,8 +34,13 @@ $(function(){
                                 self.items.forEach(function (t) { t.quantity = ""; });
                                 axios.get('/api/order/')
                                     .then(function(response){ self.orders = response.data; })
-                                    .catch(function(error){ console.log(error); });
-                            }).catch(function (error) { console.log(error); });
+                                    .catch(function(error){
+                                        console.log(error);
+                                    });
+                            }).catch(function (error) {
+                                console.log(error.data);
+                                bootbox.alert("Please recheck your order.");
+                            });
                 });
 
             }
