@@ -37,7 +37,6 @@ $(function(){
                         axios.get('/api/item/')
                             .then(function (response) {
                                 self.items = response.data;
-                                self.items.forEach(function (t) { t.quantity = ""; });
                             }).catch(function (error) {
                                 console.log(error);
                             });
@@ -45,8 +44,10 @@ $(function(){
                         bootbox.alert("Please check your order.");
                     }).then(function(){
                         axios.get('/api/order/')
-                            .then(function(response){ self.orders = response.data; })
-                            .catch(function(error){
+                            .then(function(response){
+                                self.orders = response.data;
+                                self.items.forEach(function (t) { t.quantity = ""; });
+                            }).catch(function(error){
                                 console.log(error);
                             });
                     });
