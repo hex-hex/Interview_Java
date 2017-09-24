@@ -2,7 +2,8 @@ $(function(){
     var indexViewModel = new Vue({
         el: '#item-list',
         data:{
-            items:[ ],
+            items: [],
+            orders: [],
         },
         mounted: function(){
             self = this;
@@ -31,12 +32,11 @@ $(function(){
                             .then(function (response) {
                                 self.items = response.data;
                                 self.items.forEach(function (t) { t.quantity = ""; });
-                            })
-                            .catch(function (error) {
-                                console.log(error);
-                            });
-                    }
-                );
+                                axios.get('/api/order/')
+                                    .then(function(response){ self.orders = response.data; })
+                                    .catch(function(error){ console.log(error); });
+                            }).catch(function (error) { console.log(error); });
+                });
 
             }
         }

@@ -3,13 +3,14 @@ package App;
 import Data.Inventories;
 import Data.Orders;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import Entity.Inventory;
-import io.vavr.Tuple;
 import io.vavr.collection.List;
-import io.vavr.collection.Queue;
 import io.vavr.jackson.datatype.VavrModule;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.LinkedHashMap;
 
 
@@ -30,5 +31,13 @@ public class ItemController {
         List<LinkedHashMap> orders = mapper.readValue(data, List.class);
         orders.forEach(object -> Orders.AddOrder((String)object.get("itemName"), Integer.parseInt((String)object.get("quantity"))));
         return ResponseEntity.ok().body("");
+    }
+
+    @RequestMapping(value = "/api/order/", method = RequestMethod.GET)
+    public ResponseEntity GetOrder() throws Exception{
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.registerModule(new VavrModule());
+        String json = mapper.writer().writeValueAsString(Orders.getOrders());
+        return ResponseEntity.ok().body(json);
     }
 }

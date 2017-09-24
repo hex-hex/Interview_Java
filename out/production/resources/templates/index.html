@@ -61,6 +61,19 @@
             </div>
         </form>
     </div>
+    <div class="row">
+        <p>Order List</p>
+        <table class="table table-striped">
+            <tr>
+                <th>Item type</th>
+                <th>Quantity</th>
+            </tr>
+            <tr v-for="order in orders">
+                <td>{{order.item.name}}</td>
+                <td>{{order.quantity}}</td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>
