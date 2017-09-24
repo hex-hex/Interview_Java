@@ -29,8 +29,13 @@ public class ItemController {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new VavrModule());
         List<LinkedHashMap> orders = mapper.readValue(data, List.class);
-        orders.forEach(object -> Orders.AddOrder((String)object.get("itemName"), Integer.parseInt((String)object.get("quantity"))));
-        return ResponseEntity.ok().body("");
+        try{
+            orders.forEach(object -> Orders.AddOrder((String)object.get("itemName"), Integer.parseInt((String)object.get("quantity"))));
+            return ResponseEntity.ok().body("");
+        }
+        catch (Exception e){
+            return ResponseEntity.status(401).body("Your request is broken.");
+        }
     }
 
     @RequestMapping(value = "/api/order/", method = RequestMethod.GET)

@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.io.Serializable;
 
 public class Order implements Serializable {
-    static int idCount = 0;
+    static int idCount = 1;
 
     @Getter
     private int id;

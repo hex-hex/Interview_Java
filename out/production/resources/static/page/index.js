@@ -1,3 +1,4 @@
+
 $(function(){
     var indexViewModel = new Vue({
         el: '#item-list',
@@ -25,18 +26,24 @@ $(function(){
                         formData.push({'itemName':t.item.name, 'quantity':t.quantity});
                     }
                 });
-                console.log(formData);
                 axios.post('/api/item/',formData)
                     .then(function (response) {
                         axios.get('/api/item/')
                             .then(function (response) {
                                 self.items = response.data;
                                 self.items.forEach(function (t) { t.quantity = ""; });
+                            }).catch(function (error) {
+                                console.log(error);
+                            }).then(function(){
                                 axios.get('/api/order/')
                                     .then(function(response){ self.orders = response.data; })
-                                    .catch(function(error){ console.log(error); });
-                            }).catch(function (error) { console.log(error); });
-                });
+                                    .catch(function(error){
+                                        console.log(error);
+                                    });
+                            });
+                    }).catch(function () {
+                        bootbox.alert("Please check your order.");
+                    });
 
             }
         }
