@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2e359a-ea85-4e91-bb15-308e304d8e3a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/nb_NO.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/nn_NO.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/pt_BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/locale/zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.minimal.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.minimal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/dist/vee-validate.minimal.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/tests/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/tests/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/typings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/vee-validate.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/types/vue.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/resources/static/node_modules/vee-validate/yarn.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/App/ItemController.class" afterPath="$PROJECT_DIR$/out/production/classes/App/ItemController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Entity/Order.class" afterPath="$PROJECT_DIR$/out/production/classes/Entity/Order.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/static/page/index.js" afterPath="$PROJECT_DIR$/out/production/resources/static/page/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/resources/templates/index.html" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/App/ItemController.java" afterPath="$PROJECT_DIR$/src/main/java/App/ItemController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entity/Order.java" afterPath="$PROJECT_DIR$/src/main/java/Entity/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/page/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/page/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -116,8 +51,8 @@
       <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="74" lean-forward="false" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+            <state relative-caret-position="501">
+              <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,8 +87,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -162,8 +97,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            <state relative-caret-position="180">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -724,30 +659,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -911,15 +822,16 @@
       <workItem from="1506216614461" duration="202000" />
       <workItem from="1506216848427" duration="5752000" />
       <workItem from="1506249743559" duration="2575000" />
-      <workItem from="1506252440708" duration="3518000" />
+      <workItem from="1506252440708" duration="3817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62547000" />
+    <option name="totallyTimeSpent" value="62846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1112" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -940,7 +852,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16770834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1255,16 +1167,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Predicate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/App/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="74" lean-forward="false" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1297,16 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1327,18 +1219,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
